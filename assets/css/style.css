@@ -179,7 +179,7 @@ footer a {
     color: fuchsia;
 }
  
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
     header {padding-top: 1.5rem;
         padding-bottom: 2.5rem;
         font-size: 1rem;
@@ -196,7 +196,7 @@ footer a {
 }
 }
 
-@media screen and (min-width: 576px) and (max-width: 769px) {
+@media screen and (min-width: 768px) {
     header li {
         display: inline-block;
     }
@@ -233,3 +233,4 @@ footer a {
     }
 }
 
+@media screen and (min-width: 1200px) {}
